@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #D32F2F;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    background: url('Deal Maker Logo.png') no-repeat center center/cover;    
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.cta {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-section {
+    background: url('Deal Maker Logo.png') no-repeat center center/cover;
+    color: #D32F2F;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #4169E1;
+}
+.hero-section p {
+    font-size: 2.75rem;
+    margin: 37rem;
+    padding: 2rem 10;
+    text-align: right;
+    color: #3CB371;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin: 0rem;
+    color: #4169E1;
+}
+.about-section p {
+    font-size: 1.00rem;
+    margin: 0rem;
+    color: #00000;
+
+}
+.about-image13 {
+    position: absolute;
+    bottom: 10px; /* Adjust the bottom value as needed */
+    right: 20px;  /* Adjust the right value as needed */
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.about-image14 {
+    position: absolute;
+    bottom: 10px; /* Adjust the bottom value as needed */
+    right: 350px;  /* Adjust the right value as needed */
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+}
+.about-image15 {
+    
+position: absolute;
+    bottom: -250px; /* Adjust the bottom value as needed */
+    right: 80px;  /* Adjust the right value as needed */
+    max-width: 200px; /* Adjust the width as needed */
+    height: auto;
+}
+.events-section h2 {
+    font-size: 2rem;
+    margin: 0rem;
+    color: #4169E1;
+}
+.events-section h3 {
+    font-size: 1.5rem;
+    margin: 0rem;
+    color: #00000;
+}
+.events-section p {
+    font-size: 1.20rem;
+    margin: 0rem;
+    color: #00000;
+}
+.btn-primary {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+section {
+    padding: 1rem 0;
+    text-align: left;
+}
+
+.services {
+    margin: 2rem 0;
+}
+
+.cta-section {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.25rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pictures-section h1 {
+    font-size: 2rem;
+    margin: 0rem;
+    color: #4169E1;
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+    align-items: left;
+    text-align: left;
+    background: #FFFFFF;
+}
+.pictures-image1 {
+    width: 75%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 200px;
+}
+.pictures-image2 {
+    width: 75%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.pictures-image3 {
+    width: 75%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 200px;
+}
+
